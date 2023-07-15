@@ -1,0 +1,29 @@
+img {
+    width: 250px ;
+}
+
+h1 {
+    text-shadow: 5px 5px 5px;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(157, 110, 201);
+    text-align: center;
+}
+
+li {
+    bottom: ;
+}
+
+li {
+    
+}
+
+.modal {
+    display: none;
+}
+
+.modal.open {
+    display: block;
+}

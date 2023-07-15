@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLL Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Menu</li>
+                <li>Login</li>
+                <li>
+                    <button id="signupButton">
+                        Cadastrar
+                    </button>
+                </li>
+                <li><a href="./products.html">Produtos</a></li>
+                <li><a href="./about.html">Sobre Nós</a></li>
+             
+            
+            </ul>
+        
+            
+        </nav>
+        <img src="IMG-20230715-WA0128-removebg-preview.png" alt="FLL Logo">
+    </header>
+    <main>
+        <h1>Bem vindo ao nosso site</h1>
+        <P class="paragraph">A FLL Soluções Tecnológicas é uma empresa especializada em fornecer soluções tecnológicas avançadas para empresas.</P>
+    </main>
+    <footer>
+    </footer>
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <li>Cadastro</li>
+            <span class="close">&times;</span>
+            <form id="signupform">
+                    <label for="newUsername">Novo usuário</label>
+                    <input type=text id="newUsername" required>
+                    <label for="newPassword">Nova senha:</label>
+                    <input type="password" id="newPassword" required>
+                    <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
